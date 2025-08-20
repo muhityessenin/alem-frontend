@@ -9,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  experimental: {
+    allowedDevOrigins: ['*'],  // Replace with your local IP address
+  },
 }
 
 export default nextConfig
