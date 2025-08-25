@@ -10,8 +10,12 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
-    allowedDevOrigins: ['*'],  // Replace with your local IP address
+    allowedDevOrigins: ['*'],
   },
 }
 
 export default nextConfig
+
+
+
+
